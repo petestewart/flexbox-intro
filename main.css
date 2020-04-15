@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(240, 248, 255, 0.356);
+    background-color: grey;
     padding: 0;
     margin: 0;
     text-align: center;
@@ -10,9 +10,31 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+a:link {
+    text-decoration: none;
+    color: #6688CC;
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: #6688CC;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: #9977AA;
+  }
+
+
+
 .navigation {
     display: flex;
-    background-color: cadetblue;
+    background-color: black;
+    align-items: center;
+}
+
+.navigation h1 {
+    color: #FFCC66;
 }
 
 .nav-list {
@@ -25,21 +47,33 @@ body {
 .nav-item {
     margin: 1em;
     display: block;
-    color: black;
+    color: #6688CC;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 .nav-item a:hover {
-    background-color: white;
+    color: #9977AA;
 }
 
 footer {
     width: 100%;
-    background-color: cadetblue;
+    background-color:black;
     padding: 20px;
     position: fixed;
     left: 0;
     bottom: 0;
+    color: #BB6622;
+}
+
+.ships {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.ships img {
+    height: 250px;
+    margin: 50px;
 }
