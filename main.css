@@ -67,13 +67,22 @@ footer {
     color: #BB6622;
 }
 
-.ships {
+.grid {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
 }
 
-.ships img {
+.grid img {
     height: 250px;
-    margin: 50px;
+    /* margin: 50px; */
+}
+
+.card {
+    padding: 15px;
+    /* border: 3px solid red; */
+}
+
+.card:hover {
+    background-color: dimgrey;
 }
